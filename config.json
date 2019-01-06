@@ -1,0 +1,111 @@
+{
+    "agents_to_register" : 50,
+    "num_preventions" : 30,
+    "log_level" : "info",
+    "environments":{
+
+    
+        "env2":    [
+                {
+                        "subdomain": "serialpr.mybrz.net",
+                        "distId" : "e304444c67f1d2f88d896e118c9ca1eb",
+                        "agentWH" : "./agents/agents_spr"
+                        
+                },
+                {
+                        "subdomain": "serialpr1.mybrz.net",
+                        "distId" : "c9a7c9e734d5ece8a1c5ba37859a1fd7",
+                        "agentWH" : "./agents/agents_spr1"
+                        
+                }
+                
+                ],
+
+        "tdoron":[
+                {
+                "subdomain": "tdoron.mybrz.net",
+                "distId" : "79c06be1867d5f57b1424de34ba3de62",
+                "agentWH" : "./agents/agents_tdr"
+                },
+                {
+                "subdomain": "tdoron1.mybrz.net",
+                "distId" : "55dc254980be595b3c13e814ef1ed782",
+                "agentWH" : "./agents/agents_tdr1"
+                },
+                {
+                "subdomain": "tdoron2.mybrz.net",
+                "distId" : "09053826c26c1287debd8705363d2aa9",
+                "agentWH" : "./agents/agents_tdr2"
+                }
+                ],
+        "env1":[
+                {
+                        "subdomain": "serialpr.mybrz.net",
+                        "distId" : "e304444c67f1d2f88d896e118c9ca1eb",
+                        "agentWH" : "./agents/agents_spr"
+                        
+                },
+                {
+                        "subdomain": "serialpr1.mybrz.net",
+                        "distId" : "c9a7c9e734d5ece8a1c5ba37859a1fd7",
+                        "agentWH" : "./agents/agents_spr1"
+                        
+                }
+        ],
+        "telem":[
+                 {
+                        "subdomain": "telem.mybrz.net",
+                        "distId" : "1e30b583146d31e10fd47165a1682b09",
+                        "agentWH" : "./agents/agents_telem"
+                }
+        ],
+
+        "nonret":[
+                {
+                        "subdomain": "nonret1.mybrz.net",
+                        "distId" : "5822e1569915164bcf51def1c3391303",
+                        "agentWH" : "./agents/agents_non"
+                        
+                },
+                {
+                        "subdomain": "nonret2.mybrz.net",
+                        "distId" : "4083d1528babc8fa2cb27a3a092d8316",
+                        "agentWH" : "./agents/agents_non2"
+                        
+                },
+                {
+                        "subdomain": "nonret3.mybrz.net",
+                        "distId" : "a204ee07a399e8111b8ee2e1e9b0315d",
+                        "agentWH" : "./agents/agents_non3"
+                        
+                }
+                ]
+    },
+        "j":{
+                "subdomain": "nonretcli.mybrz.net",
+                "distId" : "2e7c0972149b2f5da338b0e4ddfd78d6",
+                "agentWH" : "./agents/agents_non"
+        },
+        "r": {
+                 "subdomain": "telem.mybrz.net",
+                "distId" : "e304444c67f1d2f88d896e118c9ca1eb",
+                "agentWH" : "./agents"
+                },
+        "rt": {
+                "subdomain": "pst2.trapsqa.com",
+                "distId" : "8b96255cdd831c8bef8f90215eb4e75b",
+                "agentWH" : "./agents/agents_pst2"
+        },
+        "pst1":{
+                "subdomain": "pst1.trapsqa.com",
+                "distId" : "fe02fbe61042c6f527d8ab9d4da9c7ce",
+                "agentWH" : "./agents"
+                
+        },
+         "pst":{
+                "subdomain": "pst.trapsqa.com",
+                "distId" : "6614d254df962e41ac7a5eb65565938a",
+                "agentWH" : "./agents/agents_pst"
+                
+        }
+}

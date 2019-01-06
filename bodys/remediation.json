@@ -1,0 +1,43 @@
+{
+  "currentAgentStatus" : {
+    "agentIp" : "10.200.224.26",
+    "agentVersion" : "5.0.2.36196",
+    "contentVersion" : "26-3625",
+    "deviceDomain" : "ST3.local",
+    "deviceName" : "W7X64-Kafka",
+    "osVersion" : "6.1.7601",
+    "policyTag" : "6f09a0677b47097d6caddbc0d93fd082",
+    "protectionStatus" : 0,
+    "securityStatus" : 0,
+    "userName" : "Administrator",
+    "userSid" : "S-1-5-21-3633442418-40241110-1997069973-500"
+  },
+  "messages" : [
+    {
+      "agentStatus" : {
+        "agentIp" : "10.200.224.26",
+        "agentVersion" : "5.0.2.36196",
+        "contentVersion" : "26-3625",
+        "deviceDomain" : "ST3.local",
+        "deviceName" : "W7X64-Kafka",
+        "osVersion" : "6.1.7601",
+        "policyTag" : "6f09a0677b47097d6caddbc0d93fd082",
+        "protectionStatus" : 0,
+        "securityStatus" : 0,
+        "userName" : "Administrator",
+        "userSid" : "S-1-5-21-3633442418-40241110-1997069973-500"
+      },
+      "agentTime" : "2018-09-25T14:18:32.203954Z",
+      "body" : {
+        "@type" : "type.googleapis.com\/cloud_api.RemediationBodyObject",
+        "eventCategory" : 54,
+        "mode" : 7,
+        "preventionKey" : "{{preventionKey}}"
+      },
+      "eventType" : 5,
+      "tzOffset" : 180
+    }
+  ],
+  "numMessages" : 1,
+  "osType" : 1
+}

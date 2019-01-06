@@ -1,0 +1,67 @@
+{
+  "agentStatus" : {
+    "agentIp" : "10.200.224.26",
+    "agentVersion" : "5.0.2.36196",
+    "contentVersion" : "26-3625",
+    "deviceDomain" : "ST3.local",
+    "deviceName" : "W7X64-Kafka",
+    "osVersion" : "6.1.7601",
+    "policyTag" : "5e2bf83c97cb80ca903d36b81c6a9d77",
+    "protectionStatus" : 0,
+    "securityStatus" : 0,
+    "userName" : "Administrator",
+    "userSid" : "S-1-5-21-3633442418-40241110-1997069973-500"
+  },
+  "agentTime" : "2018-10-11T13:50:35.350618Z",
+  "body" : {
+    "block" : 0,
+    "eventCategory" : 9,
+    "eventParameters" : [
+      "C:\\Users\\Administrator\\Documents\\rc2\\tester64.exe",
+      "$HASH",
+      "$HASH",
+      "1"
+    ],
+    "fileIdx" : 0,
+    "files" : [
+      {
+        "fileName" : "tester64.exe",
+        "fileSize" : "471332",
+        "innerObjectSha256" : "$HASH",
+        "quarantineId" : "ed3d7658-9d8b-445f-b286-b591fed4a26c",
+        "rawFullPath" : "C:\\Users\\Administrator\\Documents\\rc2\\tester64.exe",
+        "sha256" : "$HASH"
+      }
+    ],
+    "moduleId" : 55,
+    "moduleStatusId" : 3225419861,
+    "postDetected" : 0,
+    "preventionKey" : "89ad8cab-f3e5-305c-1002-5e4bcc0350a2",
+    "processes" : [
+      {
+        "commandLine" : "\"tester64.exe\"",
+        "exeFileIdx" : 0,
+        "parentId" : 36948,
+        "pid" : 36212,
+        "userIdx" : 0
+      }
+    ],
+    "sockets" : [
+
+    ],
+    "sourceProcessIdx" : 0,
+    "terminate" : 1,
+    "urls" : [
+
+    ],
+    "users" : [
+      {
+        "userName" : "Administrator"
+      }
+    ],
+    "verdict" : 1
+  },
+  "eventType" : 1,
+  "severity" : 0,
+  "tzOffset" : 180
+}
